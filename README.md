@@ -2,7 +2,7 @@
 
 Implement a 'netstat -nap'-like program
 
-### Sample
+## Sample
 ```
 $ ./hw1
 List of TCP connections:
@@ -64,7 +64,7 @@ udp6  :::34193                :::*                    1071/avahi-daemon:
 udp6  :::18161                :::*                    2559/dhcpd  
 ```
 
-### hints
+## hints
 * /proc/net/tcp and /proc/net/udp has the information about currently active TCP and UDP connections.
 * /proc/[pid]/fd has the information about the file descriptor of process [pid]
 * work with opendir(3) readdir(3) stat(2) readlink(2)
